@@ -28,11 +28,11 @@
  }
  .previous-operand
  {
-font-size: 40px;
+font-size: 30px;
 color: white;
  }
  .current-operand
- {font-size:70px;
+ {font-size:40px;
     color:yellow;
 }
 .keypad
