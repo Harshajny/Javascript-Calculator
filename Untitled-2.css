@@ -1,0 +1,261 @@
+*,*::before,*::after
+{
+     
+}
+.calculator-grid
+{
+    left: 40%; /* Set left position to 50% */
+    top: 10%;  
+ position: absolute;
+ width: 411px;
+ height: 555px;
+ 
+ background: #1E1919;
+ border-radius: 20px;
+}
+.output
+ {
+     
+   
+ 
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break:break-all;
+    padding: 30px;
+ }
+ .previous-operand
+ {
+font-size: 40px;
+color: white;
+ }
+ .current-operand
+ {font-size:70px;
+    color:yellow;
+}
+.keypad
+{
+    
+position: absolute;
+width: 411px;
+height: 431px;
+left: 0px;
+top: 180px;
+
+background: #252525;
+box-shadow: inset 0px 4px 4px rgba(112, 111, 111, 0.5);
+border-radius: 20px;
+}
+.keypad> button
+{
+    width: 177px;
+height: 53px;
+left: 0px;
+top: 0px;
+
+background: #252525;
+border-radius: 8px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+text-align: center;
+
+color: #BCBCBD;
+}
+button[name="AC"] 
+{
+    position: absolute;
+width: 177px;
+height: 53px;
+left: 16px;
+top: 64px;
+
+/* Button */
+
+filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+
+ 
+
+
+}
+button[name="DEL"] 
+{
+    position: absolute;
+width: 76px;
+height: 53px;
+left: 218px;
+top: 64px;
+
+/* Button */
+
+filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+}
+button[name="div"]
+{position: absolute;
+width: 76px;
+height: 53px;
+left: 319px;
+top: 64px;
+
+/* Button */
+
+filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="1"] {
+    position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 16px;
+    top: 128px;
+
+    /* Button */
+
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+button[name="2"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 117px;
+    top: 128px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="3"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 218px;
+    top: 128px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="X"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 319px;
+    top: 128px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="4"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 16px;
+    top: 206px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="5"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 117px;
+    top: 206px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="6"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 218px;
+    top: 206px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="+"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 319px;
+    top: 206px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="7"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 16px;
+    top: 283px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="8"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 117px;
+    top: 284px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="9"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 218px;
+    top: 284px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+    }
+button[name="-"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 319px;
+    top: 284px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="."]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 16px;
+    top: 360px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="0"]
+{position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 117px;
+    top: 360px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));}
+button[name="="]
+{position: absolute;
+    width: 177px;
+    height: 53px;
+    left: 217px;
+    top: 360px;
+    
+    /* Button */
+    
+    filter: drop-shadow(-1px -1px 3px rgba(112, 111, 111, 0.5)) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+    background: #DD4E2B;
+    }
